@@ -97,7 +97,7 @@ camera.position.set(position.x, position.y, position.z);
 scene.add(camera);
 
 // Sky
-const skyDomeGeometry = new THREE.SphereGeometry(500, 64, 64);
+const skyDomeGeometry = new THREE.SphereGeometry(200, 16, 16);
 const skyDomeMaterial = new THREE.ShaderMaterial({
   vertexShader: skydomeVertexShader,
   fragmentShader: skydomeFragmentShader,
